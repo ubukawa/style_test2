@@ -82,33 +82,6 @@
   ],
   "site_root": "https://ubukawa.github.io/style_test/docs",
   "sources": {
-    "osm-l": {
-      "attribution": "OpenStreetMap contributors, <img src='https://unopengis.github.io/watermark/watermark.png'>",
-      "maxzoom": 15,
-      "minzoom": 6,
-      "tiles": [
-        "https://www.unvt-test.com:3000/zxy/osm_0720/{z}/{x}/{y}.pbf"
-      ],
-      "type": "vector"
-    },
-    "osm-l-new": {
-      "attribution": "OpenStreetMap contributors, <img src='https://unopengis.github.io/watermark/watermark.png'>",
-      "maxzoom": 15,
-      "minzoom": 6,
-      "tiles": [
-        "https://www.unvt-test.com:3000/zxy/osm-z6/{z}/{x}/{y}.pbf"
-      ],
-      "type": "vector"
-    },
-    "osm-s": {
-      "attribution": "OpenStreetMap contributors",
-      "maxzoom": 5,
-      "minzoom": 0,
-      "tiles": [
-        "https://ubukawa.github.io/testDB/zxy-osm/{z}/{x}/{y}.pbf"
-      ],
-      "type": "vector"
-    },
     "un-l": {
       "attribution": "UN_base",
       "maxzoom": 15,
