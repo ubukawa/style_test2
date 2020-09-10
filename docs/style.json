@@ -37,7 +37,7 @@
         false
       ],
       "id": "pg-landmass-s",
-      "maxzoom": 6,
+      "maxzoom": 5,
       "minzoom": 0,
       "paint": {
         "fill-color": [
@@ -66,7 +66,7 @@
       ],
       "id": "pg-landmass-l",
       "maxzoom": 18,
-      "minzoom": 6,
+      "minzoom": 5,
       "paint": {
         "fill-color": [
           "rgb",
@@ -82,6 +82,24 @@
   ],
   "site_root": "https://ubukawa.github.io/style_test/docs",
   "sources": {
+    "osm-l": {
+      "attribution": "OpenStreetMap contributors, <img src='https://unopengis.github.io/watermark/watermark.png'>",
+      "maxzoom": 15,
+      "minzoom": 6,
+      "tiles": [
+        "https://www.unvt-test.com:3000/zxy/osm-z6/{z}/{x}/{y}.pbf"
+      ],
+      "type": "vector"
+    },
+    "osm-s": {
+      "attribution": "OpenStreetMap contributors",
+      "maxzoom": 5,
+      "minzoom": 0,
+      "tiles": [
+        "https://ubukawa.github.io/testDB/zxy-osm/{z}/{x}/{y}.pbf"
+      ],
+      "type": "vector"
+    },
     "un-l": {
       "attribution": "UN_base",
       "maxzoom": 15,
