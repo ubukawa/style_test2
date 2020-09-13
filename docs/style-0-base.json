@@ -31,9 +31,8 @@
       "maxzoom": 5,
       "minzoom": 0,
       "paint": {
-        "fill-color": [
+        "fill-color": 
           "#FAF9F6"
-        ]
       },
       "source": "un-s",
       "source-layer": "landmass",
@@ -56,9 +55,8 @@
       "maxzoom": 18,
       "minzoom": 5,
       "paint": {
-        "fill-color": [
+        "fill-color": 
           "#FAF9F6"
-        ]
       },
       "source": "un-l",
       "source-layer": "landmass",
